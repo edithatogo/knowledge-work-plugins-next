@@ -5,6 +5,11 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/complaints-management/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: AU/NZ complaints-handling defaults are explicit, with US/EU-lite fallback
+  - Acceptance: Standard mode and Lite mode are explicitly documented
+  - Acceptance: Includes Confidence Indicators for clinical vs administrative triage
+  - Acceptance: PHI/PII guardrails for patient data handling
   - Acceptance: Distinguishes clinician vs service complaints
   - Acceptance: Severity framework adapted for healthcare (P1-P4 with patient safety context)
   - Acceptance: Investigation workflow with timelines

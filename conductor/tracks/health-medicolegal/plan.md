@@ -5,6 +5,11 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/medicolegal-reports/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: AU/NZ medicolegal defaults are explicit, with US/EU-lite fallback
+  - Acceptance: Standard mode and Lite mode are explicitly documented
+  - Acceptance: Includes Confidence Indicators for legal admissibility
+  - Acceptance: PHI/PII guardrails for sensitive reports
   - Acceptance: Document type taxonomy
   - Acceptance: General structure requirements
   - Acceptance: Legal admissibility guidance

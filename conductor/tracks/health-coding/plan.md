@@ -5,6 +5,11 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/clinical-coding/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: AU/NZ coding and compliance defaults are explicit, with US/EU-lite mapping notes
+  - Acceptance: Standard mode and Lite mode are explicitly documented
+  - Acceptance: Includes Confidence Indicators for diagnosis mapping
+  - Acceptance: PHI/PII guardrails for patient records
   - Acceptance: ICD-10-AM coding guidance
   - Acceptance: Classification system overview
   - Acceptance: Code selection methodology

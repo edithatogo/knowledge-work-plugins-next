@@ -5,6 +5,9 @@
 *Estimated: 1 session*
 
 - [ ] Create `health/skills/credentialing/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: Includes Confidence Indicators for primary source verification
+  - Acceptance: PHI/PII guardrails for provider data
   - Acceptance: Credentialing workflow by provider type
   - Acceptance: Primary source verification checklist
   - Acceptance: Committee preparation guidance

@@ -7,5 +7,7 @@
   "priority": "high",
   "dependencies": ["health-core"],
   "deliverable": "clinical-risk, worker-risk, enterprise-risk skills, /assess-risk command",
-  "adapts_from": ["legal/legal-risk-assessment"]
+  "adapts_from": ["legal/legal-risk-assessment"],
+  "jurisdictions": ["Australia", "New Zealand"],
+  "lite_variants": ["US", "EU"]
 }

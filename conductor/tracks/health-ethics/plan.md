@@ -5,6 +5,11 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/research-ethics/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: AU/NZ ethics defaults (NHMRC/HRC) are explicit, with US/EU-lite fallback
+  - Acceptance: Standard mode and Lite mode are explicitly documented
+  - Acceptance: Includes Confidence Indicators for ethical risk assessment
+  - Acceptance: PHI/PII guardrails for study protocols
   - Acceptance: REC/IRB application workflow
   - Acceptance: Protocol review checklist
   - Acceptance: Informed consent guidance

@@ -5,6 +5,8 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/quality-improvement/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: Includes Confidence Indicators for QI project outcomes
   - Acceptance: QI project framework
   - Acceptance: PDSA cycle guidance
   - Acceptance: Data collection planning

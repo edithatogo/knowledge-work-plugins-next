@@ -5,6 +5,10 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/release-of-information/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: AU/NZ default jurisdiction matrix plus US/EU-lite variant guidance
+  - Acceptance: Standard mode and Lite mode are explicitly documented
+  - Acceptance: PHI/PII guardrails (Minimum Necessary Principle)
   - Acceptance: Authorization validation checklist
   - Acceptance: Request types and processing timelines
   - Acceptance: Minimum necessary guidance

@@ -5,6 +5,11 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/incident-reporting/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: AU/NZ incident-reporting defaults are explicit, with US/EU-lite fallback
+  - Acceptance: Standard mode and Lite mode are explicitly documented
+  - Acceptance: Includes Confidence Indicators for clinical severity (SAC scores)
+  - Acceptance: PHI/PII guardrails for incident documentation
   - Acceptance: Incident type taxonomy
   - Acceptance: Severity classification (SAC or equivalent)
   - Acceptance: Immediate response protocol

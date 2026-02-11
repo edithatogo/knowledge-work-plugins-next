@@ -5,6 +5,9 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/health-data-report/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: Includes Confidence Indicators for statistical validity
+  - Acceptance: Implements [Hybrid Evidence Management](../health-plugin/interoperability-standards.md)
   - Acceptance: Analysis type selection guidance
   - Acceptance: Epidemiological methods overview
   - Acceptance: Standard health metrics

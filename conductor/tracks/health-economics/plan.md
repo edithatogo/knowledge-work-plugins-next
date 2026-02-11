@@ -5,6 +5,11 @@
 *Estimated: 2 sessions*
 
 - [ ] Create `health/skills/health-econ-eval/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: Implements [Hybrid Evidence Management](../health-plugin/interoperability-standards.md)
+  - Acceptance: AU/NZ HTA defaults (PBAC/MSAC/PHARMAC) are explicit, with US/EU-lite fallback
+  - Acceptance: Standard mode and Lite mode are explicitly documented
+  - Acceptance: Includes Confidence Indicators for model validity
   - Acceptance: Evaluation type selection (CEA, CUA, CBA)
   - Acceptance: Reference case requirements by jurisdiction
   - Acceptance: Decision modeling guidance

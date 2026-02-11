@@ -5,6 +5,10 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/grant-writer/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: Implements [Hybrid Evidence Management](../health-plugin/interoperability-standards.md)
+  - Acceptance: AU/NZ funder defaults (NHMRC/MRFF/HRC) are explicit, with US/EU-lite fallback
+  - Acceptance: Standard mode and Lite mode are explicitly documented
   - Acceptance: Funder/scheme selection guidance
   - Acceptance: NHMRC structure and requirements
   - Acceptance: MRFF structure and requirements

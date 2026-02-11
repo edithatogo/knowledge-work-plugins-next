@@ -5,6 +5,10 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/systematic-review/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: Implements [Hybrid Evidence Management](../health-plugin/interoperability-standards.md)
+  - Acceptance: AU/NZ evidence and governance defaults are explicit, with US/EU-lite fallback
+  - Acceptance: Standard mode and Lite mode are explicitly documented
   - Acceptance: PRISMA workflow guidance
   - Acceptance: Search strategy development framework
   - Acceptance: Screening and selection process

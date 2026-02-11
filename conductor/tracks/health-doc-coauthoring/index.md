@@ -1,4 +1,4 @@
-# Health Risk Track
+# Health Document Co-authoring Track
 
 ## Documents
 
@@ -14,5 +14,3 @@
 ## Status
 
 See [metadata.json](./metadata.json) for current status and dependencies.
-
-Default jurisdiction profile for this track is Australia/New Zealand with US/EU-lite variants as needed.

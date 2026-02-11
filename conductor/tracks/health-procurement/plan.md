@@ -5,6 +5,8 @@
 *Estimated: 1-2 sessions*
 
 - [ ] Create `health/skills/device-procurement/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: Includes Confidence Indicators for regulatory compliance (TGA/FDA/CE)
   - Acceptance: Device evaluation criteria
   - Acceptance: Regulatory compliance checklist
   - Acceptance: Vendor assessment framework

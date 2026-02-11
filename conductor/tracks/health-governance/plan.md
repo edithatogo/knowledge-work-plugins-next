@@ -5,6 +5,9 @@
 *Estimated: 1 session*
 
 - [ ] Create `health/skills/policy-development/SKILL.md`
+  - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
+  - Acceptance: Includes Confidence Indicators for policy interpretation
+  - Acceptance: AU/NZ jurisdiction default
   - Acceptance: Policy structure template
   - Acceptance: Approval workflow
   - Acceptance: Review cycle management
