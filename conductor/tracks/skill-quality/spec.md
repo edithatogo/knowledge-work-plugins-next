@@ -1,39 +1,38 @@
-# Skill Quality Improvement Track Specification
+# Health Skill Quality Specification
 
 ## Overview
 
-Systematically improve existing skills across all plugins to ensure consistency, depth, and practical utility. This track establishes quality standards and implements them across the 50+ existing skills.
+Establish quality standards and templates specifically for health plugin skills. These standards ensure consistency across all 30 planned health skills, with healthcare-specific considerations for compliance, privacy, and clinical accuracy.
 
-## Problems Identified
+## Health-Specific Quality Requirements
 
-### 1. Inconsistent Structure
-- Some skills have explicit "Triggers" sections, others don't
-- Varying levels of detail (90 lines to 867 lines)
-- No standard section ordering
+### 1. Regulatory & Compliance Context
+Every health skill must include:
+- **Applicable regulations** (HIPAA, HITECH, state privacy laws, etc.)
+- **Compliance checkpoints** specific to the workflow
+- **Documentation requirements** for audit trails
 
-### 2. Missing Key Sections
-- No "Anti-Patterns" / "Common Mistakes" in most skills
-- No "Related Skills" cross-references
-- No "Success Criteria" or quality gates
-- No tool integration hints
+### 2. Clinical Accuracy Standards
+- **Disclaimer placement** - "This skill assists with clinical workflows but does not provide clinical advice"
+- **Validation requirements** - When outputs require clinical review
+- **Escalation criteria** - When to involve subject matter experts
 
-### 3. Depth Imbalance
-- Short skills (< 120 lines) lack sufficient guidance
-- Very long skills need quick-start options
-- Technical skills missing practical examples
+### 3. Privacy & Security
+- **PHI handling** - Identifiable data considerations
+- **Data minimization** - Using minimum necessary information
+- **Retention guidance** - How long to retain generated documents
+- **De-identification** - When and how to de-identify data
 
-### 4. Discoverability
-- Skills operate in isolation
-- No cross-plugin references
-- Hard to find related capabilities
+### 4. Healthcare Workflow Integration
+- **EHR/EMR considerations** - How skill integrates with clinical systems
+- **Documentation standards** - Formatting for medical records
+- **Communication protocols** - Appropriate channels for different content types
 
-## Proposed Standards
-
-### Standard Skill Structure
+## Standard Health Skill Structure
 
 ```markdown
 ---
-name: skill-name
+name: health-skill-name
 description: One-line description. Use when [trigger condition 1], [trigger condition 2].
 ---
 
@@ -41,25 +40,40 @@ description: One-line description. Use when [trigger condition 1], [trigger cond
 
 Brief introduction (1-2 sentences).
 
+**Important**: [Appropriate disclaimer for healthcare context]
+
 ## When to Use This Skill
 
 Invoke when:
-- User mentions X
-- User asks about Y
-- Context indicates Z
+- User mentions [specific healthcare scenario]
+- User asks about [specific workflow]
+- Context indicates [specific need]
+
+## Regulatory Context
+
+| Regulation | Relevance | Key Requirements |
+|------------|-----------|------------------|
+| HIPAA | [How it applies] | [Specific requirements] |
+| [Other] | [How it applies] | [Specific requirements] |
 
 ## Quick Reference
 
-[For simple cases - condensed guidance in 5-10 bullet points]
+[Condensed guidance for simple/common cases - 5-10 bullet points]
 
 ## Detailed Guidance
 
-[Main content - organized with clear headers]
+[Main content organized with clear headers]
 
 ### Step-by-Step Process
 
 1. ...
 2. ...
+
+## Documentation Requirements
+
+- [ ] Required documentation element 1
+- [ ] Required documentation element 2
+- [ ] Audit trail requirements
 
 ## Common Mistakes
 
@@ -67,243 +81,178 @@ Invoke when:
 |---------|----------------|---------|
 | ... | ... | ... |
 
+## When to Escalate
+
+Escalate to [appropriate party] when:
+- [Escalation criterion 1]
+- [Escalation criterion 2]
+
+## Privacy Considerations
+
+- **PHI involved**: [Yes/No/Conditional]
+- **Data minimization**: [Guidance]
+- **Retention**: [How long to keep outputs]
+
 ## Tool Requirements
 
-- `~~category` - Purpose
-- `~~category` - Purpose
+- \`~~cloud storage\` - For document storage
+- \`~~project tracker\` - For workflow tracking
+- \`~~clinical systems\` - For EHR integration (if applicable)
 
 ## Success Indicators
 
 You've applied this skill well when:
-- [ ] Criterion 1
-- [ ] Criterion 2
+- [ ] All required documentation is complete
+- [ ] Compliance checkpoints verified
+- [ ] Output meets documentation standards
 
 ## Related Skills
 
-- `~~plugin/skill-name` - Brief description of relationship
-- `~~plugin/skill-name` - Brief description of relationship
+- \`~~health/related-skill\` - Brief description of relationship
+- \`~~health/related-skill\` - Brief description of relationship
 ```
 
-### Section Guidelines
+## Section Guidelines for Health Skills
 
-| Section | Required | Min Lines | Purpose |
-|---------|----------|-----------|---------|
-| Frontmatter | ✓ | 3 | Name, description with triggers |
-| When to Use | ✓ | 5 | Explicit invocation conditions |
-| Quick Reference | For complex skills | 10 | Fast path for simple cases |
-| Detailed Guidance | ✓ | 50+ | Main instructional content |
-| Common Mistakes | ✓ | 10 | Anti-patterns and corrections |
-| Tool Requirements | ✓ | 5 | MCP connector dependencies |
-| Success Indicators | ✓ | 5 | Quality gate checklist |
-| Related Skills | ✓ | 3 | Cross-references |
+| Section | Required | Min Lines | Healthcare-Specific Purpose |
+|---------|----------|-----------|----------------------------|
+| Frontmatter | Yes | 3 | Name, description with clinical triggers |
+| When to Use | Yes | 5 | Explicit clinical/operational scenarios |
+| Regulatory Context | Yes | 10 | HIPAA, state laws, accreditation standards |
+| Quick Reference | Complex skills | 10 | Fast path for routine cases |
+| Detailed Guidance | Yes | 50+ | Step-by-step clinical/operational procedures |
+| Documentation Requirements | Yes | 10 | Required elements for medical records |
+| Common Mistakes | Yes | 10 | Healthcare-specific anti-patterns |
+| When to Escalate | Yes | 5 | Criteria for involving SMEs/leadership |
+| Privacy Considerations | Yes | 10 | PHI handling, de-identification, retention |
+| Tool Requirements | Yes | 5 | MCP connector dependencies |
+| Success Indicators | Yes | 5 | Compliance and quality gates |
+| Related Skills | Yes | 3 | Cross-references within health plugin |
 
-### Quality Gates
+## Quality Gates for Health Skills
 
-Before any skill is considered complete:
+Before any health skill is considered complete:
 
-- [ ] Minimum 150 lines total
+- [ ] Minimum 200 lines total (health skills require more detail)
 - [ ] All required sections present
+- [ ] Regulatory context includes at least HIPAA relevance
 - [ ] At least 3 "Common Mistakes" documented
-- [ ] At least 2 "Related Skills" referenced
+- [ ] At least 2 "Related Skills" referenced (within health plugin preferred)
 - [ ] At least 3 "Success Indicators" defined
-- [ ] Frontmatter description includes trigger conditions
-- [ ] Practical examples included (not just theory)
+- [ ] Privacy considerations section complete
+- [ ] When to Escalate section with clear criteria
+- [ ] Appropriate healthcare disclaimers included
 - [ ] No placeholder content (e.g., "TODO", "TBD")
+- [ ] Documentation requirements align with medical record standards
 
-## Additional Improvements
+## Health Domain-Specific Improvements
 
-### 5. Accessibility & Internationalization
-- Use plain language (avoid jargon without definition)
-- Consider non-native English speakers
-- Define acronyms on first use
-- Use consistent terminology across skills
+### Complaints Management Skills
+- Patient satisfaction framework references
+- Service recovery guidelines
+- Regulatory reporting thresholds (state-specific)
 
-### 6. Versioning & Changelog
-Add to each skill:
-```markdown
-## Version History
+### Incident Reporting Skills
+- Sentinel event criteria
+- Root cause analysis methodology
+- CAP (Corrective Action Plan) templates
+- Joint Commission requirements
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.1.0 | 2026-02-11 | Added anti-patterns section |
-```
+### Risk Management Skills
+- Risk matrix with healthcare-specific likelihood/severity
+- Enterprise risk management framework
+- Insurance/notification requirements
 
-### 7. Example Gallery
-For visual/creative skills, include:
-```markdown
-## Examples
+### Information Governance Skills
+- ROI (Release of Information) processing standards
+- Consent requirements by jurisdiction
+- Records retention schedules by document type
 
-### Example 1: [Scenario Name]
-**Context:** ...
-**Input:** ...
-**Output:** ...
-**Why it works:** ...
-```
+### Clinical Coding Skills
+- ICD-10/CPT validation rules
+- Query physician guidelines
+- Audit preparation checklists
 
-### 8. Error Handling Guidance
-```markdown
-## Troubleshooting
+### Governance Skills
+- Policy lifecycle management
+- Approval workflow requirements
+- Accreditation standard mapping
 
-| Error | Cause | Solution |
-|-------|-------|----------|
-| ... | ... | ... |
-```
+### Credentialing Skills
+- Primary source verification requirements
+- FPPE/OPPE framework
+- Expiration tracking requirements
 
-### 9. Performance Considerations
-For skills involving large data or complex operations:
-```markdown
-## Performance Tips
+### Procurement Skills
+- Value analysis committee process
+- FDA clearance/approval verification
+- Business case templates for capital equipment
 
-- For datasets > 10K rows, use X approach
-- Cache Y for repeated operations
-- Avoid Z pattern with large files
-```
+### Quality Improvement Skills
+- PDSA cycle methodology
+- Statistical process control basics
+- Accreditation readiness checklists
 
-### 10. Security & Privacy Notes
-For skills handling sensitive data:
-```markdown
-## Security Considerations
+### Financial Skills
+- Payer contract red flags
+- Charge capture audit points
+- Denial management workflows
 
-- Never log PII
-- Sanitize inputs before processing
-- Use environment variables for credentials
-- Data retention: delete after X days
-```
+### Evidence Review Skills
+- PRISMA guidelines
+- GRADE methodology
+- Literature search strategies
 
-### 11. Skill Composition
-Enable skills to build on each other:
-```markdown
-## Workflow Integration
+### Data Analysis Skills
+- Statistical methods for healthcare data
+- Risk adjustment concepts
+- Dashboard design principles
 
-This skill is often used as part of:
+### Ethics Skills
+- IRB submission requirements
+- Ethics committee consultation process
+- Conflict of interest disclosure
 
-1. **[Workflow Name]**
-   - Start with: `~~plugin/skill-a`
-   - Then: `~~plugin/skill-b` (this skill)
-   - End with: `~~plugin/skill-c`
-```
+### Health Economics Skills
+- HTA submission requirements
+- Cost-effectiveness analysis methods
+- Budget impact model structure
 
-### 12. Confidence Levels
-Help users know when to trust the output:
-```markdown
-## Confidence Indicators
+### Manuscript Skills
+- Journal selection criteria
+- Authorship guidelines (ICMJE)
+- Peer review response templates
 
-| Scenario | Confidence | Action |
-|----------|------------|--------|
-| Standard inputs | High | Use directly |
-| Edge case X | Medium | Review before sharing |
-| Novel situation | Low | Flag for human review |
-```
+### Grants Skills
+- Funder alignment assessment
+- Budget justification templates
+- Compliance requirements (federal vs. foundation)
 
-### 13. Input/Output Contracts
-```markdown
-## Expected Inputs
-
-| Input | Type | Required | Description |
-|-------|------|----------|-------------|
-| data | file | ✓ | CSV, JSON, or Excel |
-| config | object | | Override defaults |
-
-## Outputs
-
-| Output | Type | Description |
-|--------|------|-------------|
-| report | markdown | Analysis summary |
-| data | file | Cleaned dataset |
-```
-
-### 14. Testing & Validation
-Add skill self-tests where applicable:
-```markdown
-## Self-Validation
-
-Before delivering output, verify:
-1. [Specific check 1]
-2. [Specific check 2]
-
-If validation fails: [Recovery steps]
-```
-
-## Plugin-Specific Improvements
-
-### Productivity Plugin
-- `task-management`: Add prioritization matrix, Eisenhower framework
-- `memory-management`: Add memory decay curves, retention strategies
-
-### Data Plugin
-- `sql-queries`: Add query performance optimization section
-- `data-validation`: Add statistical significance checks
-- All skills: Add sample datasets for practice
-
-### Customer Support Plugin
-- `ticket-triage`: Add sentiment analysis indicators
-- `response-drafting`: Add tone calibration for different cultures
-- `escalation`: Add executive communication templates
-
-### Legal Plugin
-- `compliance`: Add jurisdiction-specific quick reference
-- `contract-review`: Add red flag checklist by contract type
-- All skills: Add regulatory update monitoring guidance
-
-### Finance Plugin
-- `reconciliation`: Add common discrepancy patterns
-- `audit-support`: Add audit trail documentation standards
-- All skills: Add SOX compliance considerations
-
-### Sales Plugin
-- `create-an-asset`: Add quick-start path for simple assets
-- `competitive-intelligence`: Add source credibility assessment
-- All skills: Add CRM integration patterns
-
-### Marketing Plugin
-- `content-creation`: Add brand voice consistency checklist
-- `campaign-planning`: Add channel-specific considerations
-- All skills: Add A/B testing guidance
-
-### Bio-Research Plugin
-- All skills: Add reproducibility checklist
-- All skills: Add data provenance tracking
-- `scvi-tools`: Add computational requirements section
-
-### Enterprise Search Plugin
-- `search-strategy`: Add query expansion techniques
-- `knowledge-synthesis`: Add source quality assessment
+### Medicolegal Skills
+- Child protection reporting requirements (jurisdiction-specific)
+- Affidavit formatting standards
+- Court testimony preparation
 
 ## Deliverables
 
 ### Phase 1: Standards & Templates
-- Skill template with all required sections
-- Style guide for consistent voice/tone
-- Quality checklist for reviewers
-- Automated validation script
+- Health skill template with all required sections
+- Healthcare style guide (voice, tone, terminology)
+- Quality checklist specific to health skills
+- Validation script for health skill standards
 
-### Phase 2: High-Impact Skills
-- Update top 20 most-used skills to new standard
-- Focus on cross-plugin skills first
-- Add comprehensive cross-references
-
-### Phase 3: Complete Coverage
-- Update remaining 30+ skills
-- Create skill composition documentation
-- Build skill relationship graph
+### Phase 2: Skill Development Support
+- Apply standards as skills are created in health tracks
+- Provide templates to track implementers
+- Quality review of completed skills
 
 ## Success Metrics
 
-| Metric | Current | Target |
-|--------|---------|--------|
-| Skills with "When to Use" section | ~30% | 100% |
-| Skills with "Common Mistakes" | ~15% | 100% |
-| Skills with "Related Skills" | ~5% | 100% |
-| Average skill length | ~200 lines | 200-400 lines |
-| Cross-skill references | ~10 total | 150+ total |
-| Skills < 150 lines | 15 | 0 |
-
-## Dependencies
-
-None - this track improves existing content without blocking other work.
-
-## Risks
-
-- **Scope creep**: Limit to documented improvements, avoid feature additions
-- **Breaking changes**: Preserve existing skill behavior, only add sections
-- **Inconsistency**: Use templates and automated checks to enforce standards
+| Metric | Target |
+|--------|--------|
+| Skills with "Regulatory Context" section | 100% |
+| Skills with "When to Escalate" section | 100% |
+| Skills with "Privacy Considerations" section | 100% |
+| Average skill length | 200-400 lines |
+| Cross-skill references within health | 2+ per skill |
+| Skills with healthcare disclai

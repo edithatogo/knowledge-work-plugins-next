@@ -1,49 +1,59 @@
-# Skill Quality Improvement Track
+# Health Skill Quality Track
 
-Systematic improvements to existing skills across all plugins.
+Quality standards and templates for health plugin skills.
 
 ## Quick Links
 
-- [Specification](./spec.md) - Problems, standards, and improvement details
-- [Plan](./plan.md) - Phased implementation timeline
+- [Specification](./spec.md) - Healthcare-specific standards and requirements
+- [Plan](./plan.md) - Template creation and skill support phases
 - [Metadata](./metadata.json) - Track status and priorities
 
 ## Overview
 
-This track improves 50+ existing skills by:
+This track establishes quality standards specifically for the 30 planned health plugin skills, ensuring:
 
-1. **Standardizing structure** - Consistent sections across all skills
-2. **Adding missing sections** - Triggers, anti-patterns, success criteria
-3. **Improving depth** - Minimum 150 lines, practical examples
-4. **Enabling discovery** - Cross-references between related skills
+1. **Regulatory compliance** - HIPAA, state laws, accreditation standards
+2. **Clinical accuracy** - Appropriate disclaimers and escalation criteria
+3. **Privacy protection** - PHI handling, de-identification, retention
+4. **Workflow integration** - EHR considerations, documentation standards
 
 ## Key Deliverables
 
-| Phase | Focus | Skills |
+| Phase | Focus | Output |
 |-------|-------|--------|
-| 1 | Standards & Templates | Infrastructure |
-| 2 | High-Impact Skills | 10 priority skills |
-| 3 | Complete Coverage | 40+ remaining skills |
-| 4 | Documentation & Tooling | CI/CD, relationship graph |
+| 1 | Standards & Templates | Health skill template, style guide, quality checklist |
+| 2 | Skill Support | Templates for all 30 health skills across 17 tracks |
 
-## Standards Summary
+## Health Skill Requirements
 
-### Required Sections
+### Required Sections (12)
 - When to Use This Skill
-- Detailed Guidance (150+ lines)
-- Common Mistakes (3+ entries)
+- Regulatory Context
+- Quick Reference (for complex skills)
+- Detailed Guidance
+- Documentation Requirements
+- Common Mistakes
+- When to Escalate
+- Privacy Considerations
 - Tool Requirements
-- Success Indicators (3+ criteria)
-- Related Skills (2+ references)
+- Success Indicators
+- Related Skills
 
-### Quality Gates
+### Quality Gates (11)
+- Minimum 200 lines total
 - All required sections present
+- HIPAA relevance documented
+- Healthcare disclaimers included
+- Privacy considerations complete
+- Escalation criteria defined
+- 3+ Common Mistakes
+- 2+ Related Skills
+- 3+ Success Indicators
+- Documentation requirements clear
 - No placeholder content
-- Cross-references bidirectional
-- Practical examples included
 
 ## Status
 
 **Current:** Planning
 **Priority:** Medium
-**Dependencies:** None
+**Dependencies:** health-core

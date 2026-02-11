@@ -1,12 +1,12 @@
 {
-  "track_id": "skill-quality",
-  "name": "Skill Quality Improvement",
-  "description": "Systematic improvements to existing skills across all plugins: standardization, depth, cross-references, and quality gates",
+  "track_id": "health-skill-quality",
+  "name": "Health Skill Quality",
+  "description": "Quality standards and templates for health plugin skills: healthcare-specific structure, regulatory compliance, and cross-references",
   "status": "planning",
   "created": "2026-02-11",
   "priority": "medium",
-  "dependencies": [],
-  "deliverable": "Updated skill files with consistent structure, triggers, anti-patterns, and quality standards",
-  "phases": 3,
-  "total_skills_affected": 50
+  "dependencies": ["health-core"],
+  "deliverable": "Health skill template and quality standards for all 30 planned health skills",
+  "phases": 2,
+  "total_skills": 30
 }

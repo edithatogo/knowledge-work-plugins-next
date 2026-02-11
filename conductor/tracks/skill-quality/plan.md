@@ -1,141 +1,110 @@
-# Skill Quality Improvement Track Plan
+# Health Skill Quality Track Plan
 
-## Phase 1: Standards & Infrastructure
+## Phase 1: Standards & Templates
 *Estimated: 1 session*
 
-- [ ] Create standardized skill template
-  - Acceptance: Template includes all 14 required sections
-- [ ] Write skill style guide
-  - Acceptance: Covers voice, tone, formatting, terminology
-- [ ] Create quality checklist for reviewers
-  - Acceptance: Checklist covers all quality gates
-- [ ] Build automated validation script
-  - Acceptance: Script checks for required sections, minimum length, cross-references
-- [ ] Document improvement process
-  - Acceptance: Clear instructions for updating existing skills
+- [ ] Create health skill template
+  - Acceptance: Template includes all 12 required sections with healthcare examples
+- [ ] Write health skill style guide
+  - Acceptance: Covers voice, tone, healthcare terminology, disclaimer standards
+- [ ] Create health skill quality checklist
+  - Acceptance: Checklist covers all 11 quality gates specific to health skills
+- [ ] Build health skill validation script
+  - Acceptance: Script checks for required sections, disclaimers, privacy sections
+- [ ] Document health skill creation process
+  - Acceptance: Clear instructions for health track implementers
 
-**Checkpoint:** `conductor(checkpoint): Skill quality standards established`
+**Checkpoint:** `conductor(checkpoint): Health skill quality standards established`
 
-## Phase 2: High-Impact Skills
-*Estimated: 3 sessions*
+## Phase 2: Skill Development Support
+*Ongoing - supports all health track implementations*
 
-### Cross-Plugin Foundation Skills
-- [ ] Update `data/data-validation` (234 lines)
-  - Add: Tool requirements, Success indicators, Related skills
-  - Acceptance: Meets all quality gates
-- [ ] Update `customer-support/ticket-triage` (184 lines)
-  - Add: Quick reference, Common mistakes, Troubleshooting
-  - Acceptance: Meets all quality gates
-- [ ] Update `legal/compliance` (214 lines)
-  - Add: Quick reference, Success indicators, Related skills
-  - Acceptance: Meets all quality gates
+### Complaints Skills (health-complaints track)
+- [ ] Provide template for complaint-analysis skill
+- [ ] Provide template for response-drafting skill
 
-### High-Usage Skills (Priority)
-- [ ] Update `productivity/task-management` (90 lines → 150+)
-  - Add: Prioritization matrix, Eisenhower framework, Common mistakes
-  - Acceptance: Minimum 150 lines, all sections present
-- [ ] Update `productivity/memory-management` (322 lines)
-  - Add: Success indicators, Related skills, Troubleshooting
-  - Acceptance: Meets all quality gates
-- [ ] Update `data/sql-queries` (427 lines)
-  - Add: Performance tips, Quick reference, Related skills
-  - Acceptance: Meets all quality gates
-- [ ] Update `customer-support/response-drafting` (302 lines)
-  - Add: Tone calibration, Success indicators, Related skills
-  - Acceptance: Meets all quality gates
+### Incident Skills (health-incidents track)
+- [ ] Provide template for root-cause-analysis skill
+- [ ] Provide template for cap-writing skill
 
-### Plugin-Specific Priority Skills
-- [ ] Update `finance/reconciliation` (174 lines)
-  - Add: Common discrepancy patterns, Troubleshooting, Related skills
-  - Acceptance: Meets all quality gates
-- [ ] Update `sales/create-an-asset` (867 lines)
-  - Add: Quick start path, Success indicators, Related skills
-  - Acceptance: Has quick-start section for simple cases
-- [ ] Update `marketing/content-creation` (156 lines → 200+)
-  - Add: Brand voice checklist, Examples gallery, Related skills
-  - Acceptance: Minimum 200 lines, examples included
-- [ ] Update `bio-research/scvi-tools` (155 lines → 200+)
-  - Add: Computational requirements, Quick reference, Troubleshooting
-  - Acceptance: Minimum 200 lines, all sections present
+### Risk Skills (health-risk track)
+- [ ] Provide template for clinical-risk skill
+- [ ] Provide template for worker-risk skill
+- [ ] Provide template for enterprise-risk skill
 
-**Checkpoint:** `conductor(checkpoint): High-impact skills updated`
+### Information Governance Skills (health-information track)
+- [ ] Provide template for release-of-information skill
+- [ ] Provide template for consent-management skill
 
-## Phase 3: Complete Coverage
-*Estimated: 4 sessions*
+### Coding Skills (health-coding track)
+- [ ] Provide template for clinical-coding skill
 
-### Productivity Plugin
-- [ ] Update remaining productivity skills (2 skills)
-  - Acceptance: All skills meet quality gates
+### Governance Skills (health-governance track)
+- [ ] Provide template for policy-development skill
+- [ ] Provide template for procedure-development skill
+- [ ] Provide template for guideline-development skill
 
-### Data Plugin
-- [ ] Update remaining data skills (5 skills)
-  - Acceptance: All skills meet quality gates
+### Credentialing Skills (health-credentialing track)
+- [ ] Provide template for credentialing skill
+- [ ] Provide template for privileging skill
 
-### Customer Support Plugin
-- [ ] Update remaining customer-support skills (2 skills)
-  - Acceptance: All skills meet quality gates
+### Procurement Skills (health-procurement track)
+- [ ] Provide template for device-procurement skill
+- [ ] Provide template for business-case skill
 
-### Legal Plugin
-- [ ] Update remaining legal skills (4 skills)
-  - Acceptance: All skills meet quality gates
+### Quality Skills (health-quality track)
+- [ ] Provide template for quality-improvement skill
+- [ ] Provide template for accreditation-prep skill
 
-### Finance Plugin
-- [ ] Update remaining finance skills (5 skills)
-  - Acceptance: All skills meet quality gates
+### Financial Skills (health-financial track)
+- [ ] Provide template for payer-contracts skill
+- [ ] Provide template for charge-capture skill
 
-### Sales Plugin
-- [ ] Update remaining sales skills (4 skills)
-  - Acceptance: All skills meet quality gates
+### Evidence Skills (health-evidence track)
+- [ ] Provide template for systematic-review skill
+- [ ] Provide template for evidence-synthesis skill
 
-### Marketing Plugin
-- [ ] Update remaining marketing skills (2 skills)
-  - Acceptance: All skills meet quality gates
+### Data Analysis Skills (health-data-analysis track)
+- [ ] Provide template for health-data-report skill
 
-### Bio-Research Plugin
-- [ ] Update remaining bio-research skills (4 skills)
-  - Acceptance: All skills meet quality gates
+### Ethics Skills (health-ethics track)
+- [ ] Provide template for research-ethics skill
+- [ ] Provide template for clinical-ethics skill
 
-### Enterprise Search Plugin
-- [ ] Update all enterprise-search skills (3 skills)
-  - Acceptance: All skills meet quality gates
+### Economics Skills (health-economics track)
+- [ ] Provide template for health-econ-eval skill
+- [ ] Provide template for hta-submission skill
 
-### Cowork Plugin Management
-- [ ] Update all cowork-plugin-management skills (2 skills)
-  - Acceptance: All skills meet quality gates
+### Manuscript Skills (health-manuscripts track)
+- [ ] Provide template for manuscript-prep skill
 
-**Checkpoint:** `conductor(checkpoint): All skills updated to quality standard`
+### Grants Skills (health-grants track)
+- [ ] Provide template for grant-writer skill
 
-## Phase 4: Documentation & Tooling
-*Estimated: 1 session*
+### Medicolegal Skills (health-medicolegal track)
+- [ ] Provide template for child-protection skill
+- [ ] Provide template for affidavits skill
+- [ ] Provide template for medicolegal-reports skill
 
-- [ ] Create skill relationship graph
-  - Acceptance: Visual diagram showing skill connections
-- [ ] Build skill composition documentation
-  - Acceptance: Documents common workflows using multiple skills
-- [ ] Create contributor guide for skill quality
-  - Acceptance: Guide explains standards and review process
-- [ ] Set up CI validation for skill files
-  - Acceptance: Automated checks run on PRs
-
-**Checkpoint:** `conductor(checkpoint): Skill quality tooling complete`
+**Checkpoint:** `conductor(checkpoint): All health skill templates provided`
 
 ## Notes
 
 ### Execution Strategy
-- Work plugin-by-plugin to maintain consistency
-- Run validation script after each skill update
-- Review related skills together to ensure cross-references are bidirectional
-- Prioritize skills with < 150 lines first
+- Provide templates proactively as each health track begins implementation
+- Quality review skills as they are created, not retroactively
+- Ensure cross-references between related health skills
+- Validate regulatory context for each domain
 
-### Avoiding Scope Creep
-- Only add sections specified in this plan
-- Do not add new functionality to skills
-- Do not change existing behavior
-- Focus on structure, not content changes
+### Template Distribution
+- Store templates in health/skills/.templates/ directory
+- Reference in each health tracks spec.md
+- Update templates based on track implementer feedback
 
 ### Quality Verification
-After each skill update:
-1. Run automated validation script
-2. Check all quality gates pass
-3. Verify cross-references resolve correctly
-4. Confirm no placeholder content remains
+For each completed health skill:
+1. Run validation script for required sections
+2. Verify regulatory context is appropriate for domain
+3. Check privacy considerations are complete
+4. Confirm escalation criteria are realistic
+5. Validate cross-references to related health skills
