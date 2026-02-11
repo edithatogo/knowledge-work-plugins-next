@@ -1,17 +1,17 @@
 # Health Core Track Plan
 
-## Phase 1: Plugin Skeleton
+## Phase 1: Plugin Skeleton [checkpoint: 524aca0]
 *Estimated: 1 session*
 
-- [~] Create `health/` directory structure
+- [x] Create `health/` directory structure (524aca0)
   - Acceptance: Matches spec structure
-- [ ] Create `health/.claude-plugin/plugin.json`
+- [x] Create `health/.claude-plugin/plugin.json` (524aca0)
   - Acceptance: Valid JSON, installs successfully
-- [ ] Create `health/README.md`
+- [x] Create `health/README.md` (524aca0)
   - Acceptance: Documents 7 planned domains (complaints, incidents, risk, governance, ethics, compliance, procurement)
-- [ ] Create `health/CONNECTORS.md`
+- [x] Create `health/CONNECTORS.md` (524aca0)
   - Acceptance: Lists document storage, issue tracking, clinical systems categories
-- [ ] Create `health/.mcp.json`
+- [x] Create `health/.mcp.json` (524aca0)
   - Acceptance: At least 2 connector templates
 
 **Checkpoint:** `conductor(checkpoint): Health core plugin foundation`
