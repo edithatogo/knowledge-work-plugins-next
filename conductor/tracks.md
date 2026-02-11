@@ -46,10 +46,6 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 
 ### Track Registry (Canonical)
 
-- [x] **Track: health-complaints** (./tracks/health-complaints/)
-  - Description: Patient complaints
-  - Phase: 2
-  - Adapts From: customer-support/ticket-triage
 - [ ] **Track: health-incidents** (./tracks/health-incidents/)
   - Description: Serious adverse events
   - Phase: 2
@@ -129,7 +125,7 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 
 ### Summary
 
-- **21 tracks** total (1 meta + 19 implementation + 1 infrastructure)
+- **20 tracks** total (1 meta + 18 implementation + 1 infrastructure)
 - **33 planned skills** across all tracks
 - **16 planned commands** for key workflows
 - **0 implemented skills** in `health/skills/` currently
