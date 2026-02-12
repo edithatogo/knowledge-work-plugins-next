@@ -4,7 +4,7 @@
 *Dependencies: health-core*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/clinical-risk-assessment/SKILL.md`
+- [x] Create `health/skills/clinical-risk-assessment/SKILL.md`
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: AU/NZ risk-governance defaults are explicit, with US/EU-lite fallback
   - Acceptance: Standard mode and Lite mode are explicitly documented
@@ -18,11 +18,11 @@
 *Dependencies: Phase 1*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/worker-risk-assessment/SKILL.md`
+- [x] Create `health/skills/worker-risk-assessment/SKILL.md`
   - Acceptance: Workforce and occupational hazard checklist
   - Acceptance: Escalation criteria and urgent action triggers
 
-- [ ] Create `health/skills/enterprise-risk-assessment/SKILL.md`
+- [x] Create `health/skills/enterprise-risk-assessment/SKILL.md`
   - Acceptance: Enterprise risk categories and ownership mapping
   - Acceptance: Governance review and reporting cadence
 
@@ -30,7 +30,7 @@
 *Dependencies: Phase 1, Phase 2*
 *Estimated: 0.5-1 session*
 
-- [ ] Create `health/commands/assess-risk.md`
+- [x] Create `health/commands/assess-risk.md`
   - Acceptance: Intake prompts for risk domain selection
   - Acceptance: Recommended controls and residual risk output
   - Acceptance: Escalation and follow-up checklist

@@ -46,7 +46,7 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 
 ### Track Registry (Canonical)
 
-## [ ] Track: health-risk - Multi-domain risk
+## [x] Track: health-risk - Multi-domain risk
 Folder: [./tracks/health-risk/](./tracks/health-risk/)
 Phase: 2
 Adapts From: legal/legal-risk-assessment
