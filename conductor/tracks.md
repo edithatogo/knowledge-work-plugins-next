@@ -46,7 +46,7 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 
 ### Track Registry (Canonical)
 
-## [ ] Track: health-governance - Policies, procedures
+## [x] Track: health-governance - Policies, procedures
 Folder: [./tracks/health-governance/](./tracks/health-governance/)
 Phase: 3
 Adapts From: legal/compliance
