@@ -46,7 +46,7 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 
 ### Track Registry (Canonical)
 
-## [ ] Track: health-coding - Clinical coding
+## [x] Track: health-coding - Clinical coding
 Folder: [./tracks/health-coding/](./tracks/health-coding/)
 Phase: 2
 Adapts From: data/data-validation
