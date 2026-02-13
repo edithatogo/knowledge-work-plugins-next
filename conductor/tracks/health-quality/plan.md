@@ -4,9 +4,10 @@
 *Dependencies: health-core*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/quality-improvement/SKILL.md`
+- [~] Create `health/skills/quality-improvement/SKILL.md`
   - Acceptance: Follows [health skill standards](../health-plugin/skill-standards.md) (14-section template)
   - Acceptance: Includes Confidence Indicators for QI project outcomes
+  - Acceptance: AU/NZ quality and accreditation defaults are explicit, with US/EU-lite fallback
   - Acceptance: QI project framework
   - Acceptance: PDSA cycle guidance
   - Acceptance: Data collection planning
