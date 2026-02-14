@@ -123,4 +123,4 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 
 ---
 
-- [ ] **Track: Establish a Real Estate NZ plugin focused on Ray White Lower Hutt workflows, covering the property lifecycle from prospecting to settlement.** (./tracks/real-estate-nz_20260214/)
+- [x] **Track: Establish a Real Estate NZ plugin focused on Ray White Lower Hutt workflows, covering the property lifecycle from prospecting to settlement.** (./tracks/real-estate_20260214/)
