@@ -17,7 +17,7 @@
 *Dependencies: Phase 1*
 *Estimated: 1-2 sessions*
 
-- [ ] Create `health/skills/accreditation-prep/SKILL.md`
+- [x] Create `health/skills/accreditation-prep/SKILL.md`
   - Acceptance: Survey preparation checklist
   - Acceptance: Tracer methodology
   - Acceptance: Continuous readiness
