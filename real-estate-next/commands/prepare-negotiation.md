@@ -29,7 +29,7 @@ Use this command when:
 
 ### 1. Strategic Analysis
 
-Use `~~real-estate/compliance-closer` to:
+Use `~~real-estate-next/compliance-closer` to:
 - Compare offers on Price, Conditions, and Possession.
 - Draft "Multi-offer Protocol" scripts for buyers.
 - Generate high-impact "Auction Openers" based on the property's emotional hooks.
@@ -67,6 +67,6 @@ Would you like to draft the counter-offer wording for Offer B? [Y/n]
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate/compliance-closer`.
+- **Skill**: Uses `~~real-estate-next/compliance-closer`.
 - **Upstream**: Uses outputs from `/generate-appraisal`.
 - **Downstream**: Feeds into `lead-management` for the settlement handover.

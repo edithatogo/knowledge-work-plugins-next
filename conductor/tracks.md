@@ -124,3 +124,7 @@ PHASE 4: Research/Academic (parallel, depends Phase 3)    │
 ---
 
 - [x] **Track: Establish a Real Estate NZ plugin focused on Ray White Lower Hutt workflows, covering the property lifecycle from prospecting to settlement.** (./tracks/real-estate_20260214/)
+
+---
+
+- [x] **Track: Upgrade the Real Estate plugin to 'Real Estate Next', focusing on contractor Shadow Workflows, Vault RE webhooks, and OpenClaw branding.** (./tracks/real-estate-next_20260214/)

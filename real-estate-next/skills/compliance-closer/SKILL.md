@@ -1,5 +1,5 @@
 ---
-name: real-estate/compliance-closer
+name: real-estate-next/compliance-closer
 description: This skill should be used when managing legal compliance (REA/AML), coordinating property negotiations, and finalizing settlement documentation for New Zealand real estate. Use for auditing contracts against the REA Code, drafting "Method of Sale" strategies (Auction, Tender), generating multi-offer responses, and ensuring AML/CDD completeness. Invoke when users mention multi-offer situation, auction strategy, REA compliance, or AML checks.
 version: 1.0.0
 ---
@@ -139,6 +139,6 @@ You've applied this skill well when:
 
 ## Related Skills
 
-- `~~real-estate/marketing-suite` - For ensuring the Auction energy matches the ad copy.
-- `~~real-estate/property-analyst` - For ensuring the multi-offer prices align with market evidence.
-- `~~real-estate/lead-management` - For the final "Key Handover" after the deal is closed.
+- `~~real-estate-next/marketing-suite` - For ensuring the Auction energy matches the ad copy.
+- `~~real-estate-next/property-analyst` - For ensuring the multi-offer prices align with market evidence.
+- `~~real-estate-next/lead-management` - For the final "Key Handover" after the deal is closed.

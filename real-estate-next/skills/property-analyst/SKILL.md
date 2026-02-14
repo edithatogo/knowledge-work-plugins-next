@@ -1,5 +1,5 @@
 ---
-name: real-estate/property-analyst
+name: real-estate-next/property-analyst
 description: This skill should be used when conducting market appraisals, analyzing property investments, and auditing due diligence documents for New Zealand real estate. Use for generating "Appraisal Evidence Packs," calculating rental yields, flagging risks in LIMs/Titles, and assessing school zone stability. Invoke when users mention market value, comparable sales, LIM reports, rental ROI, or school zones.
 version: 1.0.0
 ---
@@ -146,6 +146,6 @@ You've applied this skill well when:
 
 ## Related Skills
 
-- `~~real-estate/marketing-suite` - For translating appraisal data into ad copy.
-- `~~real-estate/lead-management` - For providing data to "Hot Leads."
-- `~~real-estate/compliance-closer` - For ensuring the final price meets REA standards.
+- `~~real-estate-next/marketing-suite` - For translating appraisal data into ad copy.
+- `~~real-estate-next/lead-management` - For providing data to "Hot Leads."
+- `~~real-estate-next/compliance-closer` - For ensuring the final price meets REA standards.

@@ -32,7 +32,7 @@ Use this command when:
 
 ### 1. Analyze & Index
 
-Use `~~real-estate/property-analyst` to:
+Use `~~real-estate-next/property-analyst` to:
 - Compare the `property_details` against the `comparables`.
 - Adjust for the `cycle` (indexing old sales to today's market).
 - Calculate Rental Yield and local HCC rates impact.
@@ -72,6 +72,6 @@ Would you like to draft the 'Appraisal Justification' letter for the vendor? [Y/
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate/property-analyst`.
+- **Skill**: Uses `~~real-estate-next/property-analyst`.
 - **Upstream**: Feeds into `/draft-listing` copy.
 - **Downstream**: Feeds into `/prepare-negotiation`.

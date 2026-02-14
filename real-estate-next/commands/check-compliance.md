@@ -29,7 +29,7 @@ Use this command when:
 
 ### 1. Scrutinize & Verify
 
-Use `~~real-estate/compliance-closer` to:
+Use `~~real-estate-next/compliance-closer` to:
 - Cross-check `document` against REA Code rules (misleading conduct, disclosures).
 - Generate a customized `AML Checklist` for the specific entity type.
 - Identify "Conflict of Interest" triggers.
@@ -64,5 +64,5 @@ Would you like to draft the 'AML Information Request' email for the trustees? [Y
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate/compliance-closer`.
+- **Skill**: Uses `~~real-estate-next/compliance-closer`.
 - **Downstream**: Feeds into `/prepare-negotiation`.

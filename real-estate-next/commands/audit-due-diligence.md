@@ -29,7 +29,7 @@ Use this command when:
 
 ### 1. Scrutinize & Flag
 
-Use `~~real-estate/property-analyst` to:
+Use `~~real-estate-next/property-analyst` to:
 - Detect "Unauthorized Works" (e.g., bathrooms with no CCC).
 - Identify "Land Risks" (e.g., HCC flood plains, wind zones).
 - Highlight "Title Complexities" (e.g., cross-lease common areas).
@@ -64,5 +64,5 @@ Would you like to draft the 'Disclosure Authorization' for the vendor to sign? [
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate/property-analyst`.
+- **Skill**: Uses `~~real-estate-next/property-analyst`.
 - **Downstream**: Feeds into `/check-compliance`.

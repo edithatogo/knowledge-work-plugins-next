@@ -10,9 +10,18 @@ Plugins are **tool-agnostic** — they describe workflows in terms of categories
 
 | Category | Placeholder | Included servers | Other options |
 |----------|-------------|-----------------|---------------|
-| CRM / Leads | `~~contact database` | NurtureCloud | Salesforce, HubSpot, Propertybase |
+| CRM / Leads | `~~contact database` | Vault RE / NurtureCloud | Salesforce, HubSpot, Propertybase |
+| Webhooks | `~~webhook listener` | Private Admin API | Zapier, Make, Custom |
 | Property Data | `~~property database` | CoreLogic / PropertyValue | Trade Me API, REINZ Stats |
-| Cloud storage | `~~cloud storage` | SharePoint | Google Drive, OneDrive, Box |
+| Cloud storage | `~~cloud storage` | Google Workspace (Admin) | SharePoint, OneDrive, Box |
 | Legislative database | `~~legislation` | NZLII / REA | Westlaw, LexisNexis |
 | Budgetary data | `~~budget data` | Hutt City Council | Stats NZ, Treasury.gov |
-| Social media | `~~social media` | openclaw | Twitter/X API, LinkedIn |
+| Social media | `~~social media` | **OpenClaw** | Twitter/X API, LinkedIn |
+| Digital Signing | `~~signing service` | Secure Sign / DocuSign | Adobe Sign, HelloSign |
+
+## Shadow Workflow Setup
+
+To maintain a shadow workflow, it is recommended to:
+1.  Use a **private Google Workspace Admin** account for `~~cloud storage`.
+2.  Set up a webhook listener to pipe **Vault RE** events into your private account.
+3.  Use **OpenClaw** for all personal brand management.

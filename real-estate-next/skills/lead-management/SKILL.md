@@ -1,5 +1,5 @@
 ---
-name: real-estate/lead-management
+name: real-estate-next/lead-management
 description: This skill should be used when managing leads, open home feedback, and post-sale settlement for New Zealand real estate. Use for interpreting NurtureCloud data, ranking "Hot Leads," synthesizing weekly vendor reports, generating referral briefs for Loan Market/Concierge, and preparing settlement handover checklists. Invoke when users mention prospecting, open home feedback, vendor updates, or settlement prep.
 version: 1.0.0
 ---
@@ -139,6 +139,6 @@ You've applied this skill well when:
 
 ## Related Skills
 
-- `~~real-estate/marketing-suite` - For the "Rainy Day" copy adjustments.
-- `~~real-estate/property-analyst` - For data to back up vendor reports.
-- `~~real-estate/compliance-closer` - For the REA audit of the final contract.
+- `~~real-estate-next/marketing-suite` - For the "Rainy Day" copy adjustments.
+- `~~real-estate-next/property-analyst` - For data to back up vendor reports.
+- `~~real-estate-next/compliance-closer` - For the REA audit of the final contract.

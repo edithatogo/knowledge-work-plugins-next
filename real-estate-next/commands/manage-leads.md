@@ -29,7 +29,7 @@ Use this command when:
 
 ### 1. Analyze & Rank
 
-Use `~~real-estate/lead-management` to:
+Use `~~real-estate-next/lead-management` to:
 - Identify "Hot Leads" ( finance-ready, highly motivated).
 - Categorize database contacts into "Golden Database" tags.
 - Detect "Missing Referrals" (e.g., buyers needing a mortgage broker).
@@ -67,5 +67,5 @@ Would you like to draft the contract offer for Mary Jones? [Y/n]
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate/lead-management`.
+- **Skill**: Uses `~~real-estate-next/lead-management`.
 - **Downstream**: Feeds into `/prepare-negotiation`.

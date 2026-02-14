@@ -32,7 +32,7 @@ Use this command when:
 
 ### 1. Clean & Structure
 
-Use `~~real-estate/marketing-suite` to:
+Use `~~real-estate-next/marketing-suite` to:
 - Process the `notes` (cleaning dictation, stripping filler).
 - Map the property to the `suburb` amenities.
 - Align the tone with the `agent_voice`.
@@ -73,5 +73,5 @@ Would you like to generate a 'Rainy Day Pivot' strategy for the first open home?
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate/marketing-suite`.
+- **Skill**: Uses `~~real-estate-next/marketing-suite`.
 - **Downstream**: Feeds into `/generate-appraisal` for price alignment.

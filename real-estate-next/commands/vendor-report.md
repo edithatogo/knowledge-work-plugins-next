@@ -28,7 +28,7 @@ Use this command when:
 
 ### 1. Synthesize Sentiment
 
-Use `~~real-estate/lead-management` to:
+Use `~~real-estate-next/lead-management` to:
 - Categorize feedback into "Positive," "Critical," and "Pricing."
 - Highlight market sentiment trends (e.g., "Interest remains high forPetone beachfront").
 
@@ -60,5 +60,5 @@ Would you like to draft the 'Price Revision' email for the vendor? [Y/n]
 
 ## Integration Points
 
-- **Skill**: Uses `~~real-estate/lead-management`.
+- **Skill**: Uses `~~real-estate-next/lead-management`.
 - **Downstream**: Feeds into `/draft-listing` if a marketing pivot is needed.
