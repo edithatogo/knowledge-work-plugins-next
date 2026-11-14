@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: If you use this fork, please cite it using the metadata in this file. For upstream
+  work, also follow the citation guidance at https://github.com/anthropics/knowledge-work-plugins.
+title: Knowledge Work Plugins (edithatogo fork)
+authors:
+- name: Knowledge Work Plugins project
+repository-code: https://github.com/edithatogo/knowledge-work-plugins-next
